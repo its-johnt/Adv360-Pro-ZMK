@@ -22,32 +22,32 @@
     combos {
         compatible = "zmk,combos";
         combo_fullscreen {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 23>;
             bindings = <&kp F4>;
         };
         combo_play_pause {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 25>;
             bindings = <&kp K_PP>;
         };
         combo_show_windows {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 26>;
             bindings = <&kp F5>;
         };
         combo_lock {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 27>;
             bindings = <&kp K_LOCK>;
         };
         combo_next {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 61>;
             bindings = <&kp K_NEXT>;
         };
         combo_previous {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 65>;
             bindings = <&kp K_PREV>;
         };
