@@ -19,42 +19,6 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-        combo_fullscreen {
-            timeout-ms = <100>;
-            key-positions = <37 22>;
-            bindings = <&kp F4>;
-        };
-        combo_play_pause {
-            timeout-ms = <100>;
-            key-positions = <37 24>;
-            bindings = <&kp K_PP>;
-        };
-        combo_show_windows {
-            timeout-ms = <100>;
-            key-positions = <37 25>;
-            bindings = <&kp F5>;
-        };
-        combo_lock {
-            timeout-ms = <100>;
-            key-positions = <37 26>;
-            bindings = <&kp K_LOCK>;
-        };
-        combo_next {
-            timeout-ms = <100>;
-            key-positions = <37 60>;
-            bindings = <&kp K_NEXT>;
-        };
-        combo_previous {
-            timeout-ms = <100>;
-            key-positions = <37 64>;
-            bindings = <&kp K_PREV>;
-        };
-    };
-};
-
-/ {
   behaviors {
     #include "macros.dtsi"
 
